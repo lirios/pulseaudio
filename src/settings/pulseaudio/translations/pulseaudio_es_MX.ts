@@ -1,66 +1,66 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es_MX" version="2.1">
 <context>
     <name>Preflet</name>
     <message>
         <location filename="../contents/Preflet.qml" line="35"/>
         <source>Media</source>
-        <translation>Media</translation>
+        <translation>Medios de comunicación</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="45"/>
         <source>Alerts</source>
-        <translation>Notificaties</translation>
+        <translation>Alertas</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="55"/>
         <source>Alarms</source>
-        <translation>Alarmen</translation>
+        <translation>Alarmas</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="67"/>
         <source>Alert Sound</source>
-        <translation>Alert Geluid</translation>
+        <translation>Sonido de alerta</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="70"/>
         <source>Random Sound</source>
-        <translation>Willekeurig Geluid</translation>
+        <translation>Sonido aleatorio</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="77"/>
         <source>Output</source>
-        <translation>Uitvoer</translation>
+        <translation>Salida</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="80"/>
         <location filename="../contents/Preflet.qml" line="130"/>
         <source>Volume</source>
-        <translation>Volume</translation>
+        <translation>Volumen</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="102"/>
         <source>Test</source>
-        <translation>Test</translation>
+        <translation>Prueba</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="109"/>
         <source>Balance</source>
-        <translation>Balans</translation>
+        <translation>Equilibrar</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="120"/>
         <source>No output devices available</source>
-        <translation>Geen uitvoerapparaten beschikbaar</translation>
+        <translation>No hay dispositivos de salida disponibles</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="127"/>
         <source>Input</source>
-        <translation>Invoer</translation>
+        <translation>Entrada</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="150"/>
         <source>No input devices available</source>
-        <translation>Geen invoerapparaten beschikbaar</translation>
+        <translation>No hay dispositivos de entrada disponibles</translation>
     </message>
 </context>
 </TS>

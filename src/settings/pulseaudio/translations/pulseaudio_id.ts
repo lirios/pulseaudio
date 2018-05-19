@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.1">
 <context>
     <name>Preflet</name>
     <message>
@@ -9,27 +9,27 @@
     <message>
         <location filename="../contents/Preflet.qml" line="45"/>
         <source>Alerts</source>
-        <translation>Notificaties</translation>
+        <translation>Tanda siaga</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="55"/>
         <source>Alarms</source>
-        <translation>Alarmen</translation>
+        <translation>Alarm</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="67"/>
         <source>Alert Sound</source>
-        <translation>Alert Geluid</translation>
+        <translation>Suara tanda siaga</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="70"/>
         <source>Random Sound</source>
-        <translation>Willekeurig Geluid</translation>
+        <translation>Suara acak</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="77"/>
         <source>Output</source>
-        <translation>Uitvoer</translation>
+        <translation>Keluaran</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="80"/>
@@ -40,27 +40,27 @@
     <message>
         <location filename="../contents/Preflet.qml" line="102"/>
         <source>Test</source>
-        <translation>Test</translation>
+        <translation>Tes</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="109"/>
         <source>Balance</source>
-        <translation>Balans</translation>
+        <translation>Seimbang</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="120"/>
         <source>No output devices available</source>
-        <translation>Geen uitvoerapparaten beschikbaar</translation>
+        <translation>Tidak ada perangkat keluaran suara tersedia</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="127"/>
         <source>Input</source>
-        <translation>Invoer</translation>
+        <translation>Masukan</translation>
     </message>
     <message>
         <location filename="../contents/Preflet.qml" line="150"/>
         <source>No input devices available</source>
-        <translation>Geen invoerapparaten beschikbaar</translation>
+        <translation>Tidak ada perangkat masukan tersedia</translation>
     </message>
 </context>
 </TS>

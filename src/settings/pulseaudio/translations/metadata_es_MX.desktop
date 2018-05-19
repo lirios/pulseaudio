@@ -11,4 +11,5 @@ X-Liri-Settings-SymbolicIcon=av/volume_up
 
 
 # Translations
-Name[ko]=사운드
+Comment[es_MX]=Cambiar los niveles, entradas, salidas, y los sonidos de alerta de sonido
+Name[es_MX]=Sonido

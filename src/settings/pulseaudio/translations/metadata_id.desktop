@@ -11,4 +11,6 @@ X-Liri-Settings-SymbolicIcon=av/volume_up
 
 
 # Translations
-Name[ko]=사운드
+Comment[id]=Ubah level suara, input, output, dan suara siaga
+Name[id]=Suara
+Icon[id]=multimedia-volume-control
