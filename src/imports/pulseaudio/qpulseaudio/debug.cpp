@@ -19,4 +19,4 @@
 
 #include "debug.h"
 
-Q_LOGGING_CATEGORY(PLASMAPA, "org.kde.plasma.pulseaudio", QtWarningMsg)
+Q_LOGGING_CATEGORY(PLASMAPA, "liri.pulseaudio", QtWarningMsg)
