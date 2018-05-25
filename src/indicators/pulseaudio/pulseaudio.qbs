@@ -1,6 +1,6 @@
 import qbs 1.0
 
-LiriSettingsModule {
+LiriIndicator {
     shortName: "pulseaudio"
 
     Group {
@@ -18,9 +18,13 @@ LiriSettingsModule {
 
     Group {
         name: "Contents"
-        files: ["*.*"]
         prefix: "contents/"
-        fileTags: ["liri.settings.contents"]
+        files: [
+            "main.qml",
+            "MprisItem.qml",
+            "VolumeSlider.qml",
+        ]
+        fileTags: ["liri.indicator.contents"]
     }
 
     Group {
