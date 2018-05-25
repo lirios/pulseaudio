@@ -2,7 +2,7 @@ import qbs 1.0
 
 LiriQmlPlugin {
     name: "pulseaudioplugin"
-    pluginPath: "Vibe/PulseAudio"
+    pluginPath: "Liri/PulseAudio"
 
     Depends { name: "PulseAudio" }
 

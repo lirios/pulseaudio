@@ -1,4 +1,4 @@
-module Vibe.PulseAudio
+module Liri.PulseAudio
 plugin pulseaudioplugin
 classname PulseAudioPlugin
 typeinfo plugins.qmltypes

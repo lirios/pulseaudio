@@ -1,10 +1,7 @@
 /****************************************************************************
- * This file is part of Vibe.
+ * This file is part of Liri.
  *
- * Copyright (C) 2016 Pier Luigi Fiorini
- *
- * Author(s):
- *    Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+ * Copyright (C) 2016 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
  *
  * $BEGIN_LICENSE:LGPL2.1+$
  *
@@ -50,8 +47,8 @@ class PulseAudioPlugin : public QQmlExtensionPlugin
 public:
     void registerTypes(const char *uri)
     {
-        // @uri Vibe.PulseAudio
-        Q_ASSERT(uri == QLatin1String("Vibe.PulseAudio"));
+        // @uri Liri.PulseAudio
+        Q_ASSERT(uri == QLatin1String("Liri.PulseAudio"));
 
         qmlRegisterSingletonType(uri, 1, 0, "PulseAudio", pulseaudioSingleton);
 

@@ -1,5 +1,5 @@
 /****************************************************************************
- * This file is part of Settings.
+ * This file is part of Liri.
  *
  * Copyright (C) 2018 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
  * Copyright (C) 2016 Michael Spencer <sonrisesoftware@gmail.com>
@@ -29,7 +29,7 @@ import QtQuick.Controls.Material 2.2
 import Fluid.Core 1.0 as FluidCore
 import Fluid.Controls 1.0 as FluidControls
 import Liri.Settings 1.0
-import Vibe.PulseAudio 1.0 as PA
+import Liri.PulseAudio 1.0 as PA
 
 Page {
     header: ToolBar {

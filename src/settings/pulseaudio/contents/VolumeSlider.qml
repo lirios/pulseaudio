@@ -1,5 +1,5 @@
 /****************************************************************************
- * This file is part of Settings.
+ * This file is part of Liri.
  *
  * Copyright (C) 2018 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
  *
@@ -24,7 +24,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.2
-import Vibe.PulseAudio 1.0 as PA
+import Liri.PulseAudio 1.0 as PA
 
 Item {
     height: Math.max(slider.implicitHeight, muteSwitch.implicitHeight) + label.paintedHeight
