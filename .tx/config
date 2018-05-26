@@ -1,6 +1,18 @@
 [main]
 host = https://www.transifex.com
 
+[liri-pulseaudio.indicator]
+type = QT
+source_lang = en
+source_file = src/indicators/pulseaudio/translations/pulseaudio.ts
+file_filter = src/indicators/pulseaudio/translations/pulseaudio_<lang>.ts
+
+[liri-pulseaudio.indicator-metadata]
+type = DESKTOP
+source_lang = en
+source_file = src/indicators/pulseaudio/metadata.desktop.in
+file_filter = src/indicators/pulseaudio/translations/metadata_<lang>.desktop
+
 [liri-pulseaudio.settings-module]
 type = QT
 source_lang = en
