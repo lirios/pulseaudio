@@ -27,8 +27,6 @@ import QtQuick.Controls 2.3
 import Fluid.Controls 1.0 as FluidControls
 
 FluidControls.ListItem {
-    visible: volumeControl.visible
-
     leftItem: ToolButton {
         anchors.centerIn: parent
 

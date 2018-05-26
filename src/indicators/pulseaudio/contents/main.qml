@@ -26,7 +26,7 @@ import QtQuick.Layouts 1.0
 import Fluid.Controls 1.0 as FluidControls
 import Liri.Shell 1.0
 import Liri.Mpris 1.0
-import QtGSettings 1.0 as Settings
+import Liri.PulseAudio 1.0 as PA
 
 Indicator {
     id: indicator
@@ -47,7 +47,7 @@ Indicator {
             visible: volumeControl.visible
         }
 
-        SoundIndicator.VolumeSlider {
+        VolumeSlider {
             id: volumeSlider
             visible: volumeControl.visible
         }
@@ -60,7 +60,7 @@ Indicator {
         Repeater {
             model: mpris2.players
 
-            SoundIndicator.MprisItem {
+            MprisItem {
                 player: modelData
             }
         }
@@ -72,5 +72,31 @@ Indicator {
 
     Mpris {
         id: mpris2
+    }
+
+    PA.VolumeControl {
+        id: volumeControl
+        onVolumeChanged: {
+            // Show overlay
+            overlaysLayer.iconName = volumeControl.getIconName()
+            overlaysLayer.value = volume
+            overlaysLayer.showProgress = true
+            if (!overlaysLayer.visible)
+                overlaysLayer.show()
+        }
+        onMutedChanged: {
+            // Show overlay
+            overlaysLayer.iconName = volumeControl.getIconName()
+            overlaysLayer.showProgress = false
+            if (!overlaysLayer.visible)
+                overlaysLayer.show()
+        }
+    }
+
+    Connections {
+        target: MultimediaKeys
+        onVolumeMute: volumeControl.toggleMute()
+        onVolumeUp: volumeControl.increase()
+        onVolumeDown: volumeControl.decrease()
     }
 }
