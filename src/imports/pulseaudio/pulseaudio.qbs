@@ -13,7 +13,7 @@ LiriQmlPlugin {
         return true;
     }
 
-    cpp.defines: ['VIBE_VERSION="' + project.version + '"']
+    cpp.defines: []
     cpp.includePaths: base.concat(["qpulseaudio"])
 
     files: ["*.cpp", "*.h", "qpulseaudio/*.cpp", "qpulseaudio/*.h", "qmldir", "*.qml", "*.qmltypes"]
