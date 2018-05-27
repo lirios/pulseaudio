@@ -2,65 +2,40 @@
 <context>
     <name>Preflet</name>
     <message>
-        <location filename="../contents/Preflet.qml" line="35"/>
-        <source>Media</source>
-        <translation>Media</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="45"/>
-        <source>Alerts</source>
-        <translation>Notificaties</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="55"/>
-        <source>Alarms</source>
-        <translation>Alarmen</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="67"/>
-        <source>Alert Sound</source>
-        <translation>Alert Geluid</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="70"/>
-        <source>Random Sound</source>
-        <translation>Willekeurig Geluid</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="77"/>
+        <location filename="../contents/Preflet.qml" line="47"/>
         <source>Output</source>
         <translation>Uitvoer</translation>
     </message>
     <message>
-        <location filename="../contents/Preflet.qml" line="80"/>
-        <location filename="../contents/Preflet.qml" line="130"/>
+        <location filename="../contents/Preflet.qml" line="55"/>
+        <source>Applications</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../contents/Preflet.qml" line="43"/>
         <source>Volume</source>
         <translation>Volume</translation>
     </message>
     <message>
-        <location filename="../contents/Preflet.qml" line="102"/>
-        <source>Test</source>
-        <translation>Test</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="109"/>
-        <source>Balance</source>
-        <translation>Balans</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="120"/>
-        <source>No output devices available</source>
-        <translation>Geen uitvoerapparaten beschikbaar</translation>
-    </message>
-    <message>
-        <location filename="../contents/Preflet.qml" line="127"/>
+        <location filename="../contents/Preflet.qml" line="51"/>
         <source>Input</source>
         <translation>Invoer</translation>
     </message>
+</context>
+<context>
+    <name>StreamDelegate</name>
     <message>
-        <location filename="../contents/Preflet.qml" line="150"/>
-        <source>No input devices available</source>
-        <translation>Geen invoerapparaten beschikbaar</translation>
+        <location filename="../contents/StreamDelegate.qml" line="59"/>
+        <source>Alerts</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>VolumeSlider</name>
+    <message>
+        <location filename="../contents/VolumeSlider.qml" line="64"/>
+        <source>100%</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
