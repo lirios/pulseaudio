@@ -78,18 +78,11 @@ Indicator {
         id: volumeControl
         onVolumeChanged: {
             // Show overlay
-            overlaysLayer.iconName = volumeControl.getIconName()
-            overlaysLayer.value = volume
-            overlaysLayer.showProgress = true
-            if (!overlaysLayer.visible)
-                overlaysLayer.show()
+            OnScreenDisplay.showProgress(volumeControl.getIconName(), volume);
         }
         onMutedChanged: {
             // Show overlay
-            overlaysLayer.iconName = volumeControl.getIconName()
-            overlaysLayer.showProgress = false
-            if (!overlaysLayer.visible)
-                overlaysLayer.show()
+            OnScreenDisplay.showText(volumeControl.getIconName());
         }
     }
 
