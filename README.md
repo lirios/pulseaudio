@@ -71,6 +71,21 @@ for more deployment-related parameters.
 
 Licensed under the terms of the GNU General Public License version 3.
 
+## Translations
+
+We use Transifex to translate this project, please submit your
+translations [here](https://www.transifex.com/lirios/liri-pulseaudio/dashboard/).
+
+```sh
+./scripts/txpush.sh
+```
+
+New translations can be pulled from Transifex with:
+
+```sh
+./scripts/txpull.sh
+```
+
 ## Notes
 
 ### Logging categories
