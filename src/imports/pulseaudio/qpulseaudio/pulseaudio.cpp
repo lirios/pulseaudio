@@ -206,7 +206,7 @@ QVariant SinkModel::data(const QModelIndex &index, int role) const
         // Workaround QTBUG-1548
         const QString pulseIndex = data(index, AbstractModel::role(QByteArrayLiteral("Index"))).toString();
         const QString defaultDevice = data(index, AbstractModel::role(QByteArrayLiteral("Default"))).toString();
-        return defaultDevice + pulseIndex;
+        return QStringLiteral("%1%2").arg(defaultDevice, pulseIndex);
     }
     return AbstractModel::data(index, role);
 }
@@ -230,7 +230,7 @@ QVariant SourceModel::data(const QModelIndex &index, int role) const
         // Workaround QTBUG-1548
         const QString pulseIndex = data(index, AbstractModel::role(QByteArrayLiteral("Index"))).toString();
         const QString defaultDevice = data(index, AbstractModel::role(QByteArrayLiteral("Default"))).toString();
-        return defaultDevice + pulseIndex;
+        return QStringLiteral("%1%2").arg(defaultDevice, pulseIndex);
     }
     return AbstractModel::data(index, role);
 }
