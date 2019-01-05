@@ -11,6 +11,5 @@ X-Liri-Settings-SymbolicIcon=av/volume_up
 
 
 # Translations
-Icon[zh_TW]=多媒體—音量—控制
-Name[zh_TW]=聲音
-Comment[zh_TW]=變更音量、輸入源、輸出源與警示音
+Name[pt]=Som
+Comment[pt]=Alterar o nível do som, entradas, saídas e de alertas

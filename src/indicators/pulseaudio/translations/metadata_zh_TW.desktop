@@ -17,7 +17,7 @@ X-Liri-PluginInfo-EnabledByDefault=true
 
 
 # Translations
-Comment[zh_TW]=調整裝置及應用程式音量
 Icon[zh_TW]=多媒體音量控制
 
 Name[zh_TW]=音量
+Comment[zh_TW]=調整裝置及應用程式音量

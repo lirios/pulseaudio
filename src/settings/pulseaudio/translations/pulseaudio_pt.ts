@@ -1,10 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.1">
 <context>
     <name>StreamDelegate</name>
     <message>
         <location filename="../contents/StreamDelegate.qml" line="59"/>
         <source>Alerts</source>
-        <translation>Уведомления</translation>
+        <translation>Alertas</translation>
     </message>
 </context>
 <context>

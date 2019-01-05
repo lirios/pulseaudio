@@ -17,6 +17,6 @@ X-Liri-PluginInfo-EnabledByDefault=true
 
 
 # Translations
-Icon[lt]=multimedia-volume-control
-Name[lt]=Garsų garsis
-Comment[lt]=Reguliuoti įrenginių ir programų garsį
+Icon[pt_BR]=multimedia-volume-control
+Name[pt_BR]=Volume do som
+Comment[pt_BR]=Ajustar o volume de dispositivos e aplicativos

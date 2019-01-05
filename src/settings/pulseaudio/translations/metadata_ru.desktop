@@ -11,5 +11,6 @@ X-Liri-Settings-SymbolicIcon=av/volume_up
 
 
 # Translations
-Comment[ru]=Настройки уровней громкости, входов, выходов и звуков оповещения
+Icon[ru]=multimedia-volume-control
 Name[ru]=Звук
+Comment[ru]=Настройки уровней громкости, входов, выходов и звуков оповещения
