@@ -3,6 +3,8 @@ find_package(PulseAudio REQUIRED)
 liri_add_qml_plugin(pulseaudio
     MODULE_PATH
         "Liri/PulseAudio"
+    VERSION
+        "1.0"
     SOURCES
         plugin.cpp
         qpulseaudio/card.cpp
@@ -50,7 +52,6 @@ liri_add_qml_plugin(pulseaudio
     QML_FILES
         VolumeControl.qml
         qmldir
-        plugins.qmltypes
     #DEFINES
         #QT_NO_CAST_FROM_ASCII
         #QT_NO_FOREACH
