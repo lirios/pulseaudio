@@ -3,6 +3,4 @@ liri_add_indicator(PulseAudio
         contents/main.qml
         contents/MprisItem.qml
         contents/VolumeSlider.qml
-    METADATA
-        metadata.desktop.in
 )

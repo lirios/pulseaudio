@@ -4,6 +4,4 @@ liri_add_settings_module(PulseAudio
         contents/SinkDelegate.qml
         contents/StreamDelegate.qml
         contents/VolumeSlider.qml
-    METADATA
-        metadata.desktop.in
 )
