@@ -29,7 +29,7 @@ import Fluid.Controls 1.0 as FluidControls
 Item {
     readonly property bool isEventStream: Name == "sink-input-by-media-role:event"
 
-    width: 400
+    width: parent.width
     height: layout.implicitHeight + FluidControls.Units.smallSpacing * 2
 
     Component.onCompleted: {

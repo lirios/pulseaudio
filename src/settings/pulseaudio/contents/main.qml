@@ -31,7 +31,7 @@ import Fluid.Controls 1.0 as FluidControls
 import Liri.Settings 1.0
 import Liri.PulseAudio 1.0 as PA
 
-Page {
+ModulePage {
     header: ToolBar {
         height: bar.height
 
@@ -77,13 +77,11 @@ Page {
             anchors.fill: parent
             anchors.margins: FluidControls.Units.smallSpacing * 2
 
-            Item {
-                width: parent.width
-                height: childrenRect.height
+            ScrollView {
+                anchors.fill: parent
+                clip: true
 
                 ModuleContainer {
-                    anchors.centerIn: parent
-
                     Repeater {
                         model: FluidCore.SortFilterProxyModel {
                             sourceModel: PA.StreamRestoreModel {}
@@ -100,13 +98,11 @@ Page {
             anchors.fill: parent
             anchors.margins: FluidControls.Units.smallSpacing * 2
 
-            Item {
-                width: parent.width
-                height: childrenRect.height
+            ScrollView {
+                anchors.fill: parent
+                clip: true
 
                 ModuleContainer {
-                    anchors.centerIn: parent
-
                     Repeater {
                         model: FluidCore.SortFilterProxyModel {
                             sourceModel: sinkModel
@@ -126,13 +122,11 @@ Page {
             anchors.fill: parent
             anchors.margins: FluidControls.Units.smallSpacing * 2
 
-            Item {
-                width: parent.width
-                height: childrenRect.height
+            ScrollView {
+                anchors.fill: parent
+                clip: true
 
                 ModuleContainer {
-                    anchors.centerIn: parent
-
                     Repeater {
                         model: sourceModel
                         delegate: SinkDelegate {}
@@ -145,38 +139,33 @@ Page {
             anchors.fill: parent
             anchors.margins: FluidControls.Units.smallSpacing * 2
 
-            Item {
-                width: parent.width
-                height: childrenRect.height
+            ScrollView {
+                anchors.fill: parent
+                clip: true
 
-                ModuleContainer {
-                    anchors.centerIn: parent
+                Column {
+                    width: Math.max(implicitWidth, parent.width)
 
-                    Repeater {
-                        model: FluidCore.SortFilterProxyModel {
-                            sourceModel: PA.SourceOutputModel {}
-                            filterRoleName: "VirtualStream"
-                            filterValue: false
+                    ModuleContainer {
+                        Repeater {
+                            model: FluidCore.SortFilterProxyModel {
+                                sourceModel: PA.SourceOutputModel {}
+                                filterRoleName: "VirtualStream"
+                                filterValue: false
+                            }
+                            delegate: StreamDelegate {}
                         }
-                        delegate: StreamDelegate {}
                     }
-                }
-            }
 
-            Item {
-                width: parent.width
-                height: childrenRect.height
-
-                ModuleContainer {
-                    anchors.centerIn: parent
-
-                    Repeater {
-                        model: FluidCore.SortFilterProxyModel {
-                            sourceModel: PA.SinkInputModel {}
-                            filterRoleName: "VirtualStream"
-                            filterValue: false
+                    ModuleContainer {
+                        Repeater {
+                            model: FluidCore.SortFilterProxyModel {
+                                sourceModel: PA.SinkInputModel {}
+                                filterRoleName: "VirtualStream"
+                                filterValue: false
+                            }
+                            delegate: StreamDelegate {}
                         }
-                        delegate: StreamDelegate {}
                     }
                 }
             }

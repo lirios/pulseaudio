@@ -29,7 +29,7 @@ import Fluid.Controls 1.0 as FluidControls
 import Liri.PulseAudio 1.0 as PA
 
 Item {
-    width: 400
+    width: parent.width
     height: layout.implicitHeight + FluidControls.Units.smallSpacing * 2
 
     Component.onCompleted: {
