@@ -2,7 +2,6 @@
  * This file is part of Liri.
  *
  * Copyright (C) 2018 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
- * Copyright (C) 2016 Michael Spencer <sonrisesoftware@gmail.com>
  *
  * $BEGIN_LICENSE:GPL3+$
  *
@@ -23,62 +22,48 @@
  ***************************************************************************/
 
 import QtQuick 2.4
-import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.2
-import QtQuick.Controls.Material 2.2
 import Fluid.Core 1.0 as FluidCore
 import Fluid.Controls 1.0 as FluidControls
 import Liri.Settings 1.0
 import Liri.PulseAudio 1.0 as PA
 
 ModulePage {
-    header: ToolBar {
-        height: bar.height
+    id: page
 
-        TabBar {
-            id:bar
-            width: parent.width
+    anchors.fill: parent
+    anchors.margins: FluidControls.Units.smallSpacing * 2
 
-            TabButton {
-                text: qsTr("Volume")
+    ScrollView {
+        anchors.fill: parent
+        clip: true
+
+        Column {
+            ModuleContainer {
+                width: page.width
+
+                Repeater {
+                    model: FluidCore.SortFilterProxyModel {
+                        sourceModel: PA.SourceOutputModel {}
+                        filterRoleName: "VirtualStream"
+                        filterValue: false
+                    }
+                    delegate: StreamDelegate {}
+                }
             }
 
-            TabButton {
-                text: qsTr("Output")
-            }
+            ModuleContainer {
+                width: page.width
 
-            TabButton {
-                text: qsTr("Input")
-            }
-
-            TabButton {
-                text: qsTr("Applications")
+                Repeater {
+                    model: FluidCore.SortFilterProxyModel {
+                        sourceModel: PA.SinkInputModel {}
+                        filterRoleName: "VirtualStream"
+                        filterValue: false
+                    }
+                    delegate: StreamDelegate {}
+                }
             }
         }
-    }
-
-    PA.SinkModel {
-        id: sinkModel
-    }
-
-    PA.SourceModel {
-        id: sourceModel
-    }
-
-    PA.CardModel {
-        id: cardModel
-    }
-
-    StackLayout {
-        anchors.fill: parent
-        currentIndex: bar.currentIndex
-
-        VolumePage {}
-
-        OutputPage {}
-
-        InputPage {}
-
-        AppsPage {}
     }
 }
