@@ -20,22 +20,22 @@
     <message>
         <location filename="../contents/main.qml" line="43"/>
         <source>Volume</source>
-        <translation type="unfinished"/>
+        <translation>Lydstyrke</translation>
     </message>
     <message>
         <location filename="../contents/main.qml" line="47"/>
         <source>Output</source>
-        <translation type="unfinished"/>
+        <translation>Output</translation>
     </message>
     <message>
         <location filename="../contents/main.qml" line="51"/>
         <source>Input</source>
-        <translation type="unfinished"/>
+        <translation>Input</translation>
     </message>
     <message>
         <location filename="../contents/main.qml" line="55"/>
         <source>Applications</source>
-        <translation type="unfinished"/>
+        <translation>Programmer</translation>
     </message>
 </context>
 </TS>
