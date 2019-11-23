@@ -78,16 +78,16 @@ Indicator {
         id: volumeControl
         onVolumeChanged: {
             // Show overlay
-            OnScreenDisplay.showProgress(volumeControl.getIconName(), volume);
+            OsdClient.showProgress(volumeControl.getIconName(), volume);
         }
         onMutedChanged: {
             // Show overlay
-            OnScreenDisplay.showText(volumeControl.getIconName());
+            OsdClient.showText(volumeControl.getIconName());
         }
     }
 
     Connections {
-        target: MultimediaKeys
+        target: MultimediaKeysClient
         onVolumeMute: volumeControl.toggleMute()
         onVolumeUp: volumeControl.increase()
         onVolumeDown: volumeControl.decrease()
