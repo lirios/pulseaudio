@@ -5,7 +5,6 @@ PulseAudio
 [![GitHub release](https://img.shields.io/github/release/lirios/pulseaudio.svg)](https://github.com/lirios/pulseaudio)
 [![Build Status](https://travis-ci.org/lirios/pulseaudio.svg?branch=develop)](https://travis-ci.org/lirios/pulseaudio)
 [![GitHub issues](https://img.shields.io/github/issues/lirios/pulseaudio.svg)](https://github.com/lirios/pulseaudio/issues)
-[![Maintained](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/lirios/pulseaudio/commits/develop)
 
 PulseAudio support for Liri.
 
