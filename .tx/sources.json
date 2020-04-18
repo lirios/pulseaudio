@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ts",
+    "directory": "src/indicators/pulseaudio/contents",
+    "output_path": "src/indicators/pulseaudio/translations/pulseaudio.ts"
+  },
+  {
+    "type": "desktop",
+    "source_file": "src/indicators/pulseaudio/metadata.desktop.in",
+    "file_filter": "translations/indicator/metadata_<lang>.desktop",
+    "output_path": "src/indicators/pulseaudio/metadata.desktop"
+  },
+  {
+    "type": "ts",
+    "directory": "src/settings/pulseaudio/contents",
+    "output_path": "translations/settings/pulseaudio/pulseaudio.ts"
+  },
+  {
+    "type": "desktop",
+    "source_file": "src/settings/pulseaudio/metadata.desktop.in",
+    "file_filter": "translations/settings/metadata_<lang>.desktop",
+    "output_path": "src/settings/pulseaudio/metadata.desktop"
+  }
+]

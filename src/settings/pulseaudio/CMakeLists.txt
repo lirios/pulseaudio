@@ -8,4 +8,6 @@ liri_add_settings_module(PulseAudio
         contents/StreamDelegate.qml
         contents/VolumePage.qml
         contents/VolumeSlider.qml
+    TRANSLATIONS_PATH
+        "${CMAKE_CURRENT_SOURCE_DIR}/../../../translations/settings"
 )
