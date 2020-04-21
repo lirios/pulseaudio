@@ -2,7 +2,7 @@
   {
     "type": "ts",
     "directory": "src/indicators/pulseaudio/contents",
-    "output_path": "src/indicators/pulseaudio/translations/pulseaudio.ts"
+    "output_path": "translations/indicator/pulseaudio.ts"
   },
   {
     "type": "desktop",
@@ -13,7 +13,7 @@
   {
     "type": "ts",
     "directory": "src/settings/pulseaudio/contents",
-    "output_path": "translations/settings/pulseaudio/pulseaudio.ts"
+    "output_path": "translations/settings/pulseaudio.ts"
   },
   {
     "type": "desktop",
