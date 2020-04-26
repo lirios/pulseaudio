@@ -3,7 +3,7 @@ PulseAudio
 
 [![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![GitHub release](https://img.shields.io/github/release/lirios/pulseaudio.svg)](https://github.com/lirios/pulseaudio)
-[![Build Status](https://travis-ci.org/lirios/pulseaudio.svg?branch=develop)](https://travis-ci.org/lirios/pulseaudio)
+[![CI](https://github.com/lirios/pulseaudio/workflows/CI/badge.svg?branch=develop)](https://github.com/lirios/pulseaudio/actions?query=workflow%3ACI)
 [![GitHub issues](https://img.shields.io/github/issues/lirios/pulseaudio.svg)](https://github.com/lirios/pulseaudio/issues)
 
 PulseAudio support for Liri.
