@@ -1,6 +1,7 @@
 [Desktop Entry]
 Comment=Adjust the volume of devices and applications
 Comment[da]=Juster lydstyrken på enheder og programmer
+Comment[es_419]=Ajusta el volumen de dispositivos y aplicaciones
 Comment[fr]=Ajuster le volume des appareils et des applications
 Comment[id]=Sesuaikan volume suara pada perangkat dan aplikasi
 Comment[lt]=Reguliuoti įrenginių ir programų garsį
@@ -15,6 +16,7 @@ Icon=multimedia-volume-control
 Keywords=Volume;Mixer;Audio;
 Name=Sound Volume
 Name[da]=Lydstyrke
+Name[es_419]=Volumen del sonido
 Name[fr]=Volume du son
 Name[id]=Volume suara
 Name[lt]=Garsų garsis
