@@ -8,10 +8,10 @@ source_file = translations/indicator/pulseaudio.ts
 file_filter = translations/indicator/pulseaudio_<lang>.ts
 
 [liri-pulseaudio.indicator-metadata]
-type = DESKTOP
+type = PO
 source_lang = en
-source_file = src/indicators/pulseaudio/metadata.desktop.in
-file_filter = translations/indicator/metadata_<lang>.desktop
+source_file = translations/indicator/metadata/metadata.pot
+file_filter = translations/indicator/metadata/<lang>.po
 
 [liri-pulseaudio.settings-module]
 type = QT
@@ -20,7 +20,7 @@ source_file = translations/settings/pulseaudio.ts
 file_filter = translations/settings/pulseaudio_<lang>.ts
 
 [liri-pulseaudio.settings-module-metadata]
-type = DESKTOP
+type = PO
 source_lang = en
-source_file = src/settings/pulseaudio/metadata.desktop.in
-file_filter = translations/settings/metadata_<lang>.desktop
+source_file = translations/settings/metadata/metadata.pot
+file_filter = translations/settings/metadata/<lang>.po

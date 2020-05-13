@@ -7,8 +7,9 @@
   {
     "type": "desktop",
     "source_file": "src/indicators/pulseaudio/metadata.desktop.in",
-    "file_filter": "translations/indicator/metadata_<lang>.desktop",
-    "output_path": "src/indicators/pulseaudio/metadata.desktop"
+    "dest_file": "src/indicators/pulseaudio/metadata.desktop",
+    "file_filter": "translations/indicator/metadata/<lang>.po",
+    "output_path": "translations/indicator/metadata/metadata.pot"
   },
   {
     "type": "ts",
@@ -18,7 +19,8 @@
   {
     "type": "desktop",
     "source_file": "src/settings/pulseaudio/metadata.desktop.in",
-    "file_filter": "translations/settings/metadata_<lang>.desktop",
-    "output_path": "src/settings/pulseaudio/metadata.desktop"
+    "dest_file": "src/settings/pulseaudio/metadata.desktop",
+    "file_filter": "translations/settings/metadata/<lang>.po",
+    "output_path": "translations/settings/metadata/metadata.pot"
   }
 ]

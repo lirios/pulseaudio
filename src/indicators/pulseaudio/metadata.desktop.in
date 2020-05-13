@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Service
-Name=Sound Volume
-Comment=Adjust the volume of devices and applications
-Keywords=Volume;Mixer;Audio;
+_Name=Sound Volume
+_Comment=Adjust the volume of devices and applications
+_Keywords=Volume;Mixer;Audio;
 Icon=multimedia-volume-control
 OnlyShowIn=X-Liri;
 X-Liri-ServiceType=Indicator
