@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-15 00:11+0000\n"
+"POT-Creation-Date: 2020-05-16 00:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. (desktop-to-pot) Name
+#. (desktop-to-pot) "Name" entry
 #: metadata.desktop.in:3
+msgctxt "Name entry"
 msgid "Sound Volume"
 msgstr ""
 
-#. (desktop-to-pot) Comment
+#. (desktop-to-pot) "Comment" entry
 #: metadata.desktop.in:4
+msgctxt "Comment entry"
 msgid "Adjust the volume of devices and applications"
 msgstr ""
 
-#. (desktop-to-pot) Keywords
+#. (desktop-to-pot) "Keywords" entry
 #: metadata.desktop.in:5
+msgctxt "Keywords entry"
 msgid "Volume;Mixer;Audio;"
 msgstr ""
