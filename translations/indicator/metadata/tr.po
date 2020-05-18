@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>, 2020
+# Emin Tufan <etcetin@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-15 00:11+0000\n"
+"POT-Creation-Date: 2020-05-18 00:11+0000\n"
 "PO-Revision-Date: 2020-05-13 05:43+0000\n"
-"Last-Translator: Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>, 2020\n"
+"Last-Translator: Emin Tufan <etcetin@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/lirios/teams/71982/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,17 +21,20 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. (desktop-to-pot) Name
+#. (desktop-to-pot) "Name" entry
 #: metadata.desktop.in:3
+msgctxt "Name entry"
 msgid "Sound Volume"
 msgstr "Ses Düzeyi"
 
-#. (desktop-to-pot) Comment
+#. (desktop-to-pot) "Comment" entry
 #: metadata.desktop.in:4
+msgctxt "Comment entry"
 msgid "Adjust the volume of devices and applications"
-msgstr "Aygıtların ve uygulamaların sesini ayarlayın"
+msgstr "Aygıtların ve uygulamaların sesini ayarla"
 
-#. (desktop-to-pot) Keywords
+#. (desktop-to-pot) "Keywords" entry
 #: metadata.desktop.in:5
+msgctxt "Keywords entry"
 msgid "Volume;Mixer;Audio;"
-msgstr ""
+msgstr "Ses;Karıştırıcı;Mikser;Mixer;"
