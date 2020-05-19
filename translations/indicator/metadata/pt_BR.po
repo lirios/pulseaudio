@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>, 2020
 # Luiz Fernando Ranghetti <elchevive68@gmail.com>, 2020
 # 
 #, fuzzy
@@ -12,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-15 00:11+0000\n"
+"POT-Creation-Date: 2020-05-19 00:12+0000\n"
 "PO-Revision-Date: 2020-05-13 05:43+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/lirios/teams/71982/pt_BR/)\n"
@@ -22,17 +21,20 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. (desktop-to-pot) Name
+#. (desktop-to-pot) "Name" entry
 #: metadata.desktop.in:3
+msgctxt "Name entry"
 msgid "Sound Volume"
 msgstr "Volume do som"
 
-#. (desktop-to-pot) Comment
+#. (desktop-to-pot) "Comment" entry
 #: metadata.desktop.in:4
+msgctxt "Comment entry"
 msgid "Adjust the volume of devices and applications"
 msgstr "Ajustar o volume de dispositivos e aplicativos"
 
-#. (desktop-to-pot) Keywords
+#. (desktop-to-pot) "Keywords" entry
 #: metadata.desktop.in:5
+msgctxt "Keywords entry"
 msgid "Volume;Mixer;Audio;"
 msgstr "Volume;Mixer;Misturador;Áudio;"
