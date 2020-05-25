@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Moo, 2020
+# Man from Mars, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,29 +13,29 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-25 00:19+0000\n"
 "PO-Revision-Date: 2020-05-13 05:52+0000\n"
-"Last-Translator: Moo, 2020\n"
-"Language-Team: Lithuanian (https://www.transifex.com/lirios/teams/71982/lt/)\n"
+"Last-Translator: Man from Mars, 2020\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/lirios/teams/71982/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
-"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (desktop-to-pot) "Name" entry
 #: metadata.desktop.in:3
 msgctxt "Name entry"
 msgid "Sound"
-msgstr "Garsas"
+msgstr "Suono"
 
 #. (desktop-to-pot) "Comment" entry
 #: metadata.desktop.in:4
 msgctxt "Comment entry"
 msgid "Change sound levels, inputs, outputs, and alert sounds"
-msgstr "Keisti garso lygius, įvestis, išvestis ir įspėjimų garsus"
+msgstr "Modifica il volume, gli ingressi, le uscite ed i suoni di avviso"
 
 #. (desktop-to-pot) "Keywords" entry
 #: metadata.desktop.in:5
 msgctxt "Keywords entry"
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
 msgstr ""
-"Plokštė;Mikrofonas;Garsis;Garsumas;Garsas;Išnykimas;Balansas;Bluetooth;Ausinės;Audio;"
+"Scheda;Microfono,Volume;Dissolvenza;Bilanciamento;Bluetooth;Cuffie;Audio;"
