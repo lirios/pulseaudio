@@ -24,7 +24,7 @@
     <message>
         <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="112"/>
         <source>Play</source>
-        <translation>Проигрывать</translation>
+        <translation>Воспроизвести</translation>
     </message>
     <message>
         <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="124"/>
