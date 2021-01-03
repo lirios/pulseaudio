@@ -34,5 +34,5 @@ find_package(Qt5 "${QT_MIN_VERSION}"
 
 ## Add subdirectories:
 add_subdirectory(src/imports/pulseaudio)
-add_subdirectory(src/indicators/pulseaudio)
 add_subdirectory(src/settings/pulseaudio)
+add_subdirectory(src/statusarea/pulseaudio)

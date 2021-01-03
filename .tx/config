@@ -4,14 +4,14 @@ host = https://www.transifex.com
 [liri-pulseaudio.indicator]
 type = QT
 source_lang = en
-source_file = translations/indicator/pulseaudio.ts
-file_filter = translations/indicator/pulseaudio_<lang>.ts
+source_file = translations/statusarea/pulseaudio.ts
+file_filter = translations/statusarea/pulseaudio_<lang>.ts
 
 [liri-pulseaudio.indicator-metadata]
 type = PO
 source_lang = en
-source_file = translations/indicator/metadata/metadata.pot
-file_filter = translations/indicator/metadata/<lang>.po
+source_file = translations/statusarea/metadata/metadata.pot
+file_filter = translations/statusarea/metadata/<lang>.po
 
 [liri-pulseaudio.settings-module]
 type = QT
