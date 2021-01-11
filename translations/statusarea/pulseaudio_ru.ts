@@ -2,32 +2,32 @@
 <context>
     <name>MprisItem</name>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="80"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="61"/>
         <source>Unknown Title</source>
         <translation>Неопределённое название</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="91"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="72"/>
         <source>Unknown Artist</source>
         <translation>Неизвестный автор</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="100"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="81"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="112"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="93"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="112"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="93"/>
         <source>Play</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/MprisItem.qml" line="124"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="105"/>
         <source>Next</source>
         <translation>Далее</translation>
     </message>
@@ -35,27 +35,13 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/main.qml" line="34"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/main.qml" line="70"/>
         <source>Sound</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../../src/indicators/pulseaudio/contents/main.qml" line="37"/>
-        <source>Muted</source>
-        <translation>Остановить</translation>
-    </message>
-    <message>
-        <location filename="../../src/indicators/pulseaudio/contents/main.qml" line="38"/>
-        <source>Volume at %1%</source>
-        <translation>Воспроизведено %1%</translation>
-    </message>
-    <message>
-        <location filename="../../src/indicators/pulseaudio/contents/main.qml" line="46"/>
-        <source>Volume</source>
-        <translation>Громкость</translation>
-    </message>
-    <message>
-        <location filename="../../src/indicators/pulseaudio/contents/main.qml" line="56"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/main.qml" line="52"/>
+        <location filename="../../src/statusarea/pulseaudio/contents/main.qml" line="84"/>
         <source>Music</source>
         <translation>Музыка</translation>
     </message>
