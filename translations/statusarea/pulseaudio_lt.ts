@@ -24,7 +24,7 @@
     <message>
         <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="93"/>
         <source>Play</source>
-        <translation>Groti</translation>
+        <translation>Atkurti</translation>
     </message>
     <message>
         <location filename="../../src/statusarea/pulseaudio/contents/MprisItem.qml" line="105"/>
