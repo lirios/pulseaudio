@@ -24,7 +24,7 @@ Shell.StatusAreaExtension {
         }
         onMutedChanged: {
             // Show overlay
-            Shell.OsdClient.showText(volumeControl.getIconName());
+            Shell.OsdClient.showProgress(volumeControl.getIconName(), muted ? 0 : getVolumePercentage());
         }
     }
 
