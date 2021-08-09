@@ -22,8 +22,6 @@ jobs:
           - gcc
           - clang
         container:
-          - suse-qt512
-          - suse-qt514
           - suse-qt515
     runs-on: ubuntu-latest
     container:
@@ -45,10 +43,6 @@ jobs:
         run: |
           qtverid=`echo "${{ matrix.container }}" | sed -e 's,suse-qt,,g'`
           echo "##[set-output name=id;]${qtverid}"
-      - name: Fetch and uncompress artifacts
-        run: |
-          set -x
-          curl -L -o - "https://dl.bintray.com/liri/artifacts-${{ steps.extract_branch.outputs.branch }}/cmake-shared.tar.gz" | sudo tar -xz -f - -C /
       - uses: actions/checkout@v2
       - name: Build
         run: |
