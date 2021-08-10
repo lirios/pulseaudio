@@ -2,6 +2,7 @@
 Type=X-Liri-Service
 Name=Sound Volume
 Name[da]=Lydstyrke
+Name[de]=Klanglautstärke
 Name[es_419]=Volumen del sonido
 Name[fr]=Volume du son
 Name[he]=עוצמת שמע
@@ -35,6 +36,7 @@ Comment[zh_CN]=调节设备和应用音量
 Comment[zh_TW]=調整裝置及應用程式音量
 Keywords=Volume;Mixer;Audio;
 Keywords[da]=Lydstyrke;Mixer;Lyd;
+Keywords[de]=Lautstärke;Mischer;Audio;
 Keywords[he]=עוצמה;מערבל;שמע;
 Keywords[hye]=Ուժգնութիւն;Խառնիչ;Ձայն
 Keywords[it_IT]=Volume;Mixer;Audio;

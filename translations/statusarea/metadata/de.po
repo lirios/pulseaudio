@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-13 05:52+0000\n"
+"PO-Revision-Date: 2020-05-13 05:43+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/lirios/teams/71982/de/)\n"
 "MIME-Version: 1.0\n"
@@ -23,17 +23,17 @@ msgstr ""
 #. (desktop-to-pot) "Name" entry
 #: metadata.desktop.in:3
 msgctxt "Name entry"
-msgid "Sound"
-msgstr "Klang"
+msgid "Sound Volume"
+msgstr "Klanglautstärke"
 
 #. (desktop-to-pot) "Comment" entry
 #: metadata.desktop.in:4
 msgctxt "Comment entry"
-msgid "Change sound levels, inputs, outputs, and alert sounds"
+msgid "Adjust the volume of devices and applications"
 msgstr ""
 
 #. (desktop-to-pot) "Keywords" entry
 #: metadata.desktop.in:5
 msgctxt "Keywords entry"
-msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
-msgstr ""
+msgid "Volume;Mixer;Audio;"
+msgstr "Lautstärke;Mischer;Audio;"
