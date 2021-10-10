@@ -1,10 +1,12 @@
 find_package(PulseAudio REQUIRED)
 
-liri_add_qml_plugin(pulseaudio
+liri_add_qml_plugin(PulseAudioQmlPlugin
     MODULE_PATH
         "Liri/PulseAudio"
     VERSION
         "1.0"
+    OUTPUT_NAME
+        "pulseaudioplugin"
     SOURCES
         plugin.cpp
         qpulseaudio/card.cpp
@@ -59,4 +61,4 @@ liri_add_qml_plugin(pulseaudio
         PkgConfig::PulseAudio
 )
 
-liri_finalize_qml_plugin(pulseaudio)
+liri_finalize_qml_plugin(PulseAudioQmlPlugin)
