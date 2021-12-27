@@ -56,7 +56,6 @@ QHash<int, QByteArray> AbstractModel::roleNames() const
 int AbstractModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
-    return m_map->count();
 }
 
 QVariant AbstractModel::data(const QModelIndex &index, int role) const
