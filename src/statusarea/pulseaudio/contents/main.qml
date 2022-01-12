@@ -29,7 +29,7 @@ Shell.StatusAreaExtension {
     }
 
     Connections {
-        target: MultimediaKeysClient
+        target: Shell.MultimediaKeysClient
         onVolumeMute: volumeControl.toggleMute()
         onVolumeUp: volumeControl.increase()
         onVolumeDown: volumeControl.decrease()
