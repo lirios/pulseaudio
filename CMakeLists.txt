@@ -16,7 +16,7 @@ endif()
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 ## Set minimum versions required:
-set(QT_MIN_VERSION "5.10.0")
+set(QT_MIN_VERSION "5.15.0")
 
 ## Liri specific setup common for all modules:
 include(LiriSetup)
