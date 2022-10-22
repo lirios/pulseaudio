@@ -1,4 +1,4 @@
-find_package(PulseAudio REQUIRED)
+find_package(Libpulse REQUIRED)
 
 liri_add_qml_plugin(PulseAudioQmlPlugin
     MODULE_PATH
@@ -58,7 +58,7 @@ liri_add_qml_plugin(PulseAudioQmlPlugin
         #QT_NO_CAST_FROM_ASCII
         #QT_NO_FOREACH
     LIBRARIES
-        PkgConfig::PulseAudio
+        PkgConfig::Libpulse
 )
 
 liri_finalize_qml_plugin(PulseAudioQmlPlugin)
